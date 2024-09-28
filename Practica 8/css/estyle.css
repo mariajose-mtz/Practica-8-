@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8ebe0;
+    color: #333;
+}
+
+header {
+    background: url('../imagenes/banner.jpeg') no-repeat center center/cover;
+    padding: 20px;
+    color: white;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 100px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    margin-top: 20px;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #bd5d38;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #8e4330;
+}
+
+article {
+    display: flex;
+    padding: 20px;
+    margin: 20px 0;
+    justify-content: center; /* Centrando el contenido */
+}
+
+section {
+    flex: 3;
+    text-align: center; /* Centra el texto dentro de la sección */
+    padding-right: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f4f1ea;
+    padding: 20px;
+    border-left: 5px solid #bd5d38;
+}
+
+h2 {
+    color: #bd5d38;
+    margin-bottom: 10px;
+}
+
+.contenido img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#alumnoperfil img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #bd5d38;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
